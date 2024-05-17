@@ -118,6 +118,18 @@ func TLSConfig(c *tls.Config) ServerOption {
 	}
 }
 
+func SSLCrtFile(file string) ServerOption {
+	return func(o *Server) {
+		o.sslCrtFile = file
+	}
+}
+
+func SSLKeyFile(file string) ServerOption {
+	return func(o *Server) {
+		o.sslKeyFile = file
+	}
+}
+
 // StrictSlash is with mux's StrictSlash
 // If true, when the path pattern is "/path/", accessing "/path" will
 // redirect to the former and vice versa.
@@ -172,6 +184,8 @@ type Server struct {
 	ene         EncodeErrorFunc
 	strictSlash bool
 	router      *mux.Router
+	sslCrtFile  string
+	sslKeyFile  string
 }
 
 // NewServer creates an HTTP server by options.
@@ -329,7 +343,7 @@ func (s *Server) Start(ctx context.Context) error {
 	log.Infof("[HTTP] server listening on: %s", s.lis.Addr().String())
 	var err error
 	if s.tlsConf != nil {
-		err = s.ServeTLS(s.lis, "", "")
+		err = s.ServeTLS(s.lis, s.sslCrtFile, s.sslKeyFile)
 	} else {
 		err = s.Serve(s.lis)
 	}
