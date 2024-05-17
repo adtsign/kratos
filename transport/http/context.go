@@ -11,9 +11,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/go-kratos/kratos/v2/middleware"
-	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/go-kratos/kratos/v2/transport/http/binding"
+	"github.com/adtsign/kratos/middleware"
+	"github.com/adtsign/kratos/transport"
+	"github.com/adtsign/kratos/transport/http/binding"
 )
 
 var _ Context = (*wrapper)(nil)

@@ -6,8 +6,8 @@ import (
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/protobuf/proto"
 
-	enc "github.com/go-kratos/kratos/v2/encoding"
-	"github.com/go-kratos/kratos/v2/encoding/json"
+	enc "github.com/adtsign/kratos/encoding"
+	"github.com/adtsign/kratos/encoding/json"
 )
 
 func init() {

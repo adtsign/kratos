@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/registry"
-	"github.com/go-kratos/kratos/v2/transport/grpc"
-	"github.com/go-kratos/kratos/v2/transport/http"
+	"github.com/adtsign/kratos/registry"
+	"github.com/adtsign/kratos/transport/grpc"
+	"github.com/adtsign/kratos/transport/http"
 )
 
 type mockRegistry struct {

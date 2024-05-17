@@ -9,10 +9,10 @@ import (
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"
 
+	"github.com/adtsign/kratos/internal/endpoint"
+	"github.com/adtsign/kratos/log"
+	"github.com/adtsign/kratos/registry"
 	"github.com/go-kratos/aegis/subset"
-	"github.com/go-kratos/kratos/v2/internal/endpoint"
-	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-kratos/kratos/v2/registry"
 )
 
 type discoveryResolver struct {

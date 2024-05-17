@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	xlog "github.com/go-kratos/kratos/v2/log"
-	"github.com/go-kratos/kratos/v2/registry"
-	"github.com/go-kratos/kratos/v2/transport"
+	xlog "github.com/adtsign/kratos/log"
+	"github.com/adtsign/kratos/registry"
+	"github.com/adtsign/kratos/transport"
 )
 
 func TestID(t *testing.T) {

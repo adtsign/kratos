@@ -3,7 +3,7 @@ module github.com/go-kratos/kratos/contrib/log/tencent/v2
 go 1.19
 
 require (
-	github.com/go-kratos/kratos/v2 v2.7.3
+	github.com/adtsign/kratos v2.7.3
 	github.com/tencentcloud/tencentcloud-cls-sdk-go v1.0.2
 	google.golang.org/protobuf v1.33.0
 )
@@ -15,4 +15,4 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 )
 
-replace github.com/go-kratos/kratos/v2 => ../../../
+replace github.com/adtsign/kratos => ../../../

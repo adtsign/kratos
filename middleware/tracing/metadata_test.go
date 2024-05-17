@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-kratos/kratos/v2"
-	"github.com/go-kratos/kratos/v2/metadata"
+	"github.com/adtsign/kratos"
+	"github.com/adtsign/kratos/metadata"
 
 	"go.opentelemetry.io/otel/propagation"
 )

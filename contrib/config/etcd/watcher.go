@@ -5,7 +5,7 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/go-kratos/kratos/v2/config"
+	"github.com/adtsign/kratos/config"
 )
 
 type watcher struct {

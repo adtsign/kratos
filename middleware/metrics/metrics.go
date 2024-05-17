@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/go-kratos/kratos/v2/middleware"
-	"github.com/go-kratos/kratos/v2/transport"
+	"github.com/adtsign/kratos/errors"
+	"github.com/adtsign/kratos/middleware"
+	"github.com/adtsign/kratos/transport"
 
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"

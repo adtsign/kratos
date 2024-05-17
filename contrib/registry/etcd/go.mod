@@ -3,7 +3,7 @@ module github.com/go-kratos/kratos/contrib/registry/etcd/v2
 go 1.19
 
 require (
-	github.com/go-kratos/kratos/v2 v2.7.3
+	github.com/adtsign/kratos v2.7.3
 	go.etcd.io/etcd/client/v3 v3.5.11
 	google.golang.org/grpc v1.61.1
 )
@@ -27,4 +27,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/go-kratos/kratos/v2 => ../../../
+replace github.com/adtsign/kratos => ../../../

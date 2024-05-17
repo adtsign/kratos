@@ -5,9 +5,9 @@ import (
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/go-kratos/kratos/v2/registry"
-	"github.com/go-kratos/kratos/v2/selector"
-	"github.com/go-kratos/kratos/v2/transport"
+	"github.com/adtsign/kratos/registry"
+	"github.com/adtsign/kratos/selector"
+	"github.com/adtsign/kratos/transport"
 )
 
 const (

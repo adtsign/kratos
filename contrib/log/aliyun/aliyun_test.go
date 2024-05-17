@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-kratos/kratos/v2/log"
+	"github.com/adtsign/kratos/log"
 )
 
 func TestWithEndpoint(t *testing.T) {

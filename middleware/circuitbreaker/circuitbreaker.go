@@ -6,10 +6,10 @@ import (
 	"github.com/go-kratos/aegis/circuitbreaker"
 	"github.com/go-kratos/aegis/circuitbreaker/sre"
 
-	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/go-kratos/kratos/v2/internal/group"
-	"github.com/go-kratos/kratos/v2/middleware"
-	"github.com/go-kratos/kratos/v2/transport"
+	"github.com/adtsign/kratos/errors"
+	"github.com/adtsign/kratos/internal/group"
+	"github.com/adtsign/kratos/middleware"
+	"github.com/adtsign/kratos/transport"
 )
 
 // ErrNotAllowed is request failed due to circuit breaker triggered.

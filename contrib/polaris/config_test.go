@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/config"
+	"github.com/adtsign/kratos/config"
 
 	"github.com/polarismesh/polaris-go"
 )

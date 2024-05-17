@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/aliyun/aliyun-log-go-sdk v0.1.72
-	github.com/go-kratos/kratos/v2 v2.7.3
+	github.com/adtsign/kratos v2.7.3
 	google.golang.org/protobuf v1.33.0
 )
 
@@ -24,6 +24,6 @@ require (
 )
 
 replace (
-	github.com/go-kratos/kratos/v2 => ../../../
+	github.com/adtsign/kratos => ../../../
 	github.com/gogo/protobuf v1.3.1 => github.com/gogo/protobuf v1.3.2
 )

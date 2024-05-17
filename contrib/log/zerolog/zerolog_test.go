@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/go-kratos/kratos/v2/log"
+	"github.com/adtsign/kratos/log"
 )
 
 type testWriteSyncer struct {

@@ -10,11 +10,11 @@ import (
 
 	"github.com/getsentry/sentry-go"
 
-	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-kratos/kratos/v2/middleware"
-	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/go-kratos/kratos/v2/transport/grpc"
-	"github.com/go-kratos/kratos/v2/transport/http"
+	"github.com/adtsign/kratos/log"
+	"github.com/adtsign/kratos/middleware"
+	"github.com/adtsign/kratos/transport"
+	"github.com/adtsign/kratos/transport/grpc"
+	"github.com/adtsign/kratos/transport/http"
 )
 
 type ctxKey struct{}

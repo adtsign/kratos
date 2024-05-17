@@ -11,16 +11,16 @@ import (
 	grpcinsecure "google.golang.org/grpc/credentials/insecure"
 	grpcmd "google.golang.org/grpc/metadata"
 
-	"github.com/go-kratos/kratos/v2/log"
-	"github.com/go-kratos/kratos/v2/middleware"
-	"github.com/go-kratos/kratos/v2/registry"
-	"github.com/go-kratos/kratos/v2/selector"
-	"github.com/go-kratos/kratos/v2/selector/wrr"
-	"github.com/go-kratos/kratos/v2/transport"
-	"github.com/go-kratos/kratos/v2/transport/grpc/resolver/discovery"
+	"github.com/adtsign/kratos/log"
+	"github.com/adtsign/kratos/middleware"
+	"github.com/adtsign/kratos/registry"
+	"github.com/adtsign/kratos/selector"
+	"github.com/adtsign/kratos/selector/wrr"
+	"github.com/adtsign/kratos/transport"
+	"github.com/adtsign/kratos/transport/grpc/resolver/discovery"
 
 	// init resolver
-	_ "github.com/go-kratos/kratos/v2/transport/grpc/resolver/direct"
+	_ "github.com/adtsign/kratos/transport/grpc/resolver/direct"
 )
 
 func init() {
