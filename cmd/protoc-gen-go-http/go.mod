@@ -1,8 +1,8 @@
-module github.com/go-kratos/kratos/cmd/protoc-gen-go-http/v2
+module github.com/adtsign/kratos/cmd/protoc-gen-go-http
 
-go 1.19
+go 1.21.4
 
 require (
-	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/genproto/googleapis/api v0.0.0-20240515191416-fc5f0ca64291
+	google.golang.org/protobuf v1.34.1
 )

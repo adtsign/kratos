@@ -1,8 +1,9 @@
-module github.com/go-kratos/kratos/cmd/protoc-gen-go-errors/v2
+module github.com/adtsign/kratos/cmd/protoc-gen-go-errors
 
-go 1.19
+go 1.21.4
 
 require (
-	golang.org/x/text v0.3.8
-	google.golang.org/protobuf v1.33.0
+	github.com/go-kratos/kratos/cmd/protoc-gen-go-errors/v2 v2.0.0-20240516020449-fbac5fa25e7a
+	golang.org/x/text v0.15.0
+	google.golang.org/protobuf v1.34.1
 )
