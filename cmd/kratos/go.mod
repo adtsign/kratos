@@ -6,7 +6,6 @@ require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/emicklei/proto v1.13.2
 	github.com/fatih/color v1.17.0
-	github.com/go-kratos/kratos/cmd/kratos/v2 v2.0.0-20240516020449-fbac5fa25e7a
 	github.com/spf13/cobra v1.8.0
 	golang.org/x/mod v0.17.0
 	golang.org/x/text v0.15.0
